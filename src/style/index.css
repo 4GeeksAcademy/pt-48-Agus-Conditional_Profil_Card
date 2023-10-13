@@ -1,3 +1,18 @@
+body {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(89, 89, 89, 1) 35%,
+    rgba(255, 255, 255, 1) 85%
+  );
+  height: 100vh;
+}
+
+.navbar-brand {
+  font-family: Lobster, sans-serif;
+}
+
 .filters {
   background: white;
   width: 100%;
@@ -25,7 +40,10 @@
   margin: 50px auto;
   background: #fff;
   border-radius: 5px;
-  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+  /*box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);*/
+  box-shadow: 24px 25px 9px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 24px 25px 9px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 24px 25px 9px 0px rgba(0, 0, 0, 0.75);
 }
 .widget .cover {
   height: 160px;
